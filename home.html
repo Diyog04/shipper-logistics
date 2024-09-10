@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <section class="upper container-fluid d-flex flex-wrap justify-content-between bg-warning pt-2 pb-0 ps-5 pe-5">
+            <p>Now 547,648 delivered to 8.930 stores</p>
+            <p class="text-center"><i class="fa-solid fa-flag-usa"></i></i> language</p>
+            <div class="d-flex">
+                <p class="me-4">12 march <i class="fa-solid fa-cloud"></i> 15°</p>
+                <p><i class="fa-solid fa-phone"></i> +1 083 456 04</p>
+            </div>
+        </section>
+        <div class="ct">
+            <div class="container d-flex flex-wrap justify-content-between ">
+                <div class="mt-3"><a class="navbar-brand text-light" href=""> <img src="images/logo.png" width="120px"
+                            alt=""></a></div>
+                <div class="below mt-4 ">
+                    <div class="iconic mb-5 pb-1 ps-1 me-1"><i class="fa-solid fa-clock"></i></div>
+                    <div class="inner">
+                        <h5 class="mb-0">Opening Hours</h5>
+                        <p class="pt-0">mon-fri 7:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="below mt-4">
+                    <div class="iconic mb-5 pb-1 ps-2 me-1"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="inner">
+                        <h5 class="mb-0">Our Location</h5>
+                        <p>Los-Angeles, Calefornia</p>
+                    </div>
+                </div>
+                <div class="below mt-4">
+                    <div class="iconic mb-5 pb-1 ps-1 me-1"><i class="fa-solid fa-comment-dots"></i></div>
+                    <div class="inner">
+                        <h5 class="mb-0">Quick Support</h5>
+                        <p>support@shipper.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg d-flex flex-wrap justify-content-between p-0 bg-body-tertiary">
+                <div class="togglerho container">
+                    <div class="collapse navbar-collapse  bg-primary" id="navbarTogglerDemo01">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+                            <a class="nav-link  mx-3 " aria-current="page" href="#">Home</a>
+                            <a class="nav-link  mx-3" href="#">About Us</a>
+                            <a class="nav-link  mx-3" href="#">Dealers</a>
+                            <a class="nav-link  mx-3" href="#">Services</a>
+                            <a class="nav-link  mx-3" href="#">Pages</a>
+                            <a class="nav-link  mx-3" href="#">News</a>
+                            <a class="nav-link  mx-3" href="#">Contact</a>
+                        </ul>
+                        <div class=" icon">
+                            <div style="background-color:#342c64 ;" class="d-flex text-light flex-wrap p-2 ">
+                                <p class="pe-5 pb-0"><i class="fa-solid fa-bars"></i></p>
+                                <p class="pe-5"><i class="fa-solid fa-magnifying-glass"></i></p>
+                                <p class="pe-2"><i class="fa-solid fa-cart-shopping"></i></p>
+                            </div>
+
+                            <div style="background-color: #272242;" class="icon d-fle text-light p-2 ">
+                                <p class="ps-2 pe-3"><i class="fa-brands fa-facebook"></i></p>
+                                <p class="pe-3"><i class="fa-brands fa-twitter"></i></p>
+                                <p class="pe-3"><i class="fa-brands fa-instagram"></i></p>
+                                <p class="pe-3"><i class="fa-brands fa-youtube"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="canvasho">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><span
+                            class="navbar-toggler-icon"></span></button>
+
+                    <div class="offcanvas offcanvas-start w-50" data-bs-scroll="true" data-bs-backdrop="false"
+                        tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+                                <a class="nav-link  mx-3 " aria-current="page" href="#">Home</a>
+                                <a class="nav-link  mx-3" href="#">About Us</a>
+                                <a class="nav-link  mx-3" href="#">Dealers</a>
+                                <a class="nav-link  mx-3" href="#">Services</a>
+                                <a class="nav-link  mx-3" href="#">Pages</a>
+                                <a class="nav-link  mx-3" href="#">News</a>
+                                <a class="nav-link  mx-3" href="#">Contact</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+
+    <section>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/airplane.png" class="d-block w-100 position-relative" alt="...">
+                    <div class="contents position-absolute d-none d-md-block">
+                        <h5>LOGISTICS</h5>
+                        <p>Check your delivery easily & quickly</p>
+                        <div>
+                            <input type="text" class="inp-caro bg-transparent border border-3 border-light text-light"
+                                placeholder="Tracking ID">
+                            <input type="date" class="inp-caro bg-transparent border border-3 border-light text-light"
+                                placeholder="Date">
+                            <button type="submit">Check shipment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ship.png" class="d-block w-100 position-relative" alt="...">
+                    <div class="contents position-absolute d-none d-md-block">
+                        <h5>LOGISTICS</h5>
+                        <p>Check your delivery easily & quickly</p>
+                        <div>
+                            <input type="text" class="inp-caro bg-transparent border border-3 border-light text-light"
+                                placeholder="Tracking ID">
+                            <input type="date" class="inp-caro bg-transparent border border-3 border-light text-light"
+                                placeholder="Date">
+                            <button type="submit">Check shipment</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/train.png" class="d-block w-100" alt="...">
+                    <div class="contents position-absolute d-none d-md-block">
+                        <h5>LOGISTICS</h5>
+                        <p>Check your delivery easily & quickly</p>
+                        <div>
+                            <input type="text" class="inp-caro bg-transparent border border-3 border-light text-light"
+                                placeholder="Tracking ID">
+                            <input type="date" class="inp-caro bg-transparent border border-3 border-light text-light"
+                                placeholder="Date">
+                            <button type="submit">Check shipment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="clearfix m-5  ps-3 justify-content-center">
+            <div class="packing">
+                <h1 class="mt-4 mb-4">PACKING & STORAGE</h1>
+                <p>
+                    Bringing you industry-specific expertise; whatever you’re shipping, <br> wherever you’re shipping
+                    it.
+
+                <ul>
+                    <li>Shipper delivers a professional, efficient service</li>
+                    <li>Tailored to the specific needs of your business.</li>
+                    <li>Our services are designed around you.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-md-7 float-md-end mb-3 ms-md-3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/sea.png" class="card-img-top" alt="...">
+                            <div class="card-body  bg-warning">
+                                <p class="card-text">We want to ensure that it’s as easy as possible to use the site to
+                                    get.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/air.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-warning">
+                                <p class="card-text">Shipments moving, whether you’ve worked with us for years
+                                    completely new.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/land.png" class="card-img-top" alt="...">
+                            <div class="card-body bg-warning">
+                                <p class="card-text">International shipping. For further assistance, please get in
+                                    touch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="calk container">
+        <h1 class="calculate ms-5 mt-4 mb-4">Calculate Shipping</h1>
+        <div class="row d-flex flex-wrap justify-content-center">
+            <div class="calc col-6 ">
+
+                <div class="col-md-9 float-md-start mb-3 ms-md-3 ">
+                    <div class="row ">
+                        <div class="col-md-7 col-sm-6 ">
+                            <br>
+                            <p>Distance</p>
+                            <span><input type="radio" checked> Domestic</span>
+                            <span><input type="radio"> International</span> <br>
+                            <br>
+                            <label for="Weight">Weight</label> <br>
+                            <input type="text" name="weight" id="" placeholder="Weight"><br>
+                            <br>
+                            <label for="">Cargo Size</label><br>
+                            <input class="w-25" type="text" placeholder="cm">
+                            <span>x</span>
+                            <input class="w-25" type="text" placeholder="cm"><br>
+                            <br>
+                            <label for="">Fragile</label>
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle text-secondary w-75" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Yes
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item active" href="#">Yes</a></li>
+                                    <li><a class="dropdown-item" href="#">No</a></li>
+                                </ul>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="form col-md-5 col-sm-6">
+
+                            <label for="">Extra Services</label>
+                            <div>
+                                <input type="checkbox" checked name="" id="">
+                                <span>Quick Delivery</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <span>Warrenty</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <span>Gift Box</span>
+                            </div>
+                            <p class="dollar">The Field below will show the double of the number about $</p>
+
+                            <input style="width:75px;" type="text" placeholder="$200">
+
+                            <button class="drp-btn mt-3">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-3">
+                <img src="images/calc.png" width="270px" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="cards">
+        <div class="container mt-4">
+            <div class="row m-0">
+                <div class="col-4 p-0">
+                    <div class="card">
+                        <img src="images/airplane.png" class="card-img-top" alt="Card Image 1">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mt-5 text-light">PACKING</h5>
+                            <p class="card-text mt-2 text-warning">STORAGES</p>
+                            <div class="card-btn mt-2">
+                                <a href=""><button class="kudne btn text-light mb-0 ms-0 position-relative">Read More
+                                    </button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 p-0 ">
+                    <div class="card">
+                        <img src="images/ship.png" class="card-img-top" alt="Card Image 2">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mt-5 text-light">LANDING</h5>
+                            <p class="card-text  mt-2 text-warning">FEATURES</p>
+                            <div class="card-btn mt-2">
+                                <a href=""><button class="kudne btn text-light mb-0 ms-0  position-relative">Read More
+                                    </button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 p-0">
+                    <div class="card">
+                        <img src="images/train.png" class="card-img-top" alt="Card Image 3">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mt-5 text-light">DELIVERY</h5>
+                            <p class="card-text  mt-2 text-warning">SERVICES</p>
+                            <div class="card-btn mt-2">
+                                <a href=""><button class="kudne btn text-light mb-0 ms-0 position-relative">Read More
+
+                                    </button></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="news m-5">
+        <div class="container">
+            <h1 class="mt-4 mb-4">Latest News</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col p-0">
+                    <div class="card">
+                        <a href="">
+                            <span class="notify-badge">02/Oct</span>
+                            <img src="images/airplane.png" class="card-img-top img-overlay" alt="...">
+                        </a>
+                        <div class="card-body text-light">
+                            <h5 class="card-title">Social and demographic information</h5>
+                            <p class="card-text">There are no hidden costs associated with our transportation services
+                            </p>
+                            <div class="card-btn">
+                                <a href=""><button class="news-btn btn text-warning mb-0 ms-0  position-relative">Read
+                                        More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0" id="card">
+                    <div class="card">
+                        <div class="card-body text-light">
+                            <h5 class="card-title">Team member to discuss our meeting</h5>
+                            <p class="card-text">Offers you peace-of-mind that we’ll be on-hand to help whenever you
+                                need us.</p>
+                            <div class="card-btn">
+                                <a href=""><button class="news-btn btn text-warning mb-0 ms-0  position-relative">Read
+                                        More</button></a>
+                            </div>
+                        </div>
+                        <a href="">
+                            <img src="images/ship.png" class="card-img-bottom" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <div class="col p-0">
+                    <div class="card">
+                        <a href="">
+                            <span class="notify-badge">02/Oct</span>
+                            <img src="images/train.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-light">
+                            <h5 class="card-title">Financial Institutions changes control</h5>
+                            <p class="card-text">As a company, we believe in operating as independent national carriers.
+                            </p>
+                            <div class="card-btn">
+                                <a href=""><button class="news-btn btn text-warning mb-0 ms-0  position-relative">Read
+                                        More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="col col-ko-border">
+                <div class="card  border-0 ">
+                    <div class="card-body">
+                        <img style="width: 200px;" class="testi mx-auto d-block" src="images/test1.png" width="100px"
+                            alt="">
+                        <p class="text-center">Shipper is a world leader in global container shipping and a company
+                            offering global service with local knowledge. SHIPPER also provides integrated network of
+                            road, rail and sea transport resources which stretches across the globe.</p>
+                        <p class="text-center pt-3"><i class="fa-solid fa-comment-dots"
+                                style="color: #FFD43B; font-size:25px;"></i></p>
+                        <h5 class="card-title text-center owl-text-h5">Jessica Carter</h5>
+                        <p class="level text-center text-warning">Shipping Director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col col-ko-border">
+                <div class="card  border-0">
+                    <div class="card-body">
+                        <img style="width: 200px;" class="testi  mx-auto d-block" src="images/test2.png" width="100px"
+                            alt="">
+                        <p class="text-center">Shipper is a world leader in global container shipping and a company
+                            offering global service with local knowledge. SHIPPER also provides integrated network of
+                            road, rail and sea transport resources which stretches across the globe.</p>
+                        <p class="text-center pt-3"><i class="fa-solid fa-comment-dots"
+                                style="color: #FFD43B; font-size:25px;"></i></p>
+                        <h5 class="card-title text-center owl-text-h5">Mark Zuckerburg</h5>
+                        <p class="level text-center text-warning">Product Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="col col-ko-border">
+                <div class="card  border-0 ">
+                    <div class="card-body">
+                        <img style="width: 200px;" class="testi mx-auto d-block" src="images/test3.png" width="15%"
+                            alt="">
+                        <p class="text-center">Our sea freight offering is complemented by our integrated warehousing
+                            and haulage services, which enable us to offer a true door-to-door service. As a company, we
+                            believe in operating as independent national carriers, this means we’re able to offer you a
+                            global.</p>
+                        <p class="text-center pt-3"><i class="fa-solid fa-comment-dots"
+                                style="color: #FFD43B; font-size:25px;"></i></p>
+                        <h5 class="card-title text-center owl-text-h5">Chris O'Conner</h5>
+                        <p class="level text-center text-warning">Senior Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="sponcer">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-md-3 m-5">
+
+                <div class="col-md-2 mx-auto d-block">
+                    <img src="images/logo1.png" width="100px" alt="">
+                </div>
+                <div class="col-md-2 mx-auto d-block">
+                    <img src="images/logo2.png" width="100px" alt="">
+                </div>
+                <div class="col-md-2 mx-auto d-block">
+                    <img src="images/logo3.png" width="100px" alt="">
+                </div>
+                <div class="col-md-2 mx-auto d-block">
+                    <img src="images/logo4.png" width="100px" alt="">
+                </div>
+                <div class="col-md-2 mx-auto d-block">
+                    <img src="images/logo5.png" width="100px" alt="">
+                </div>
+                <div class="col-md-2 mx-auto d-block">
+                    <img src="images/logo6.png" width="100px" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="calling">
+        <div class="container-fluid">
+            <div class="row justify-content-center row-cols-1 row-cols-md-1">
+                <div style="align-items: center; justify-content: center; display: flex; background-color:#413686;"
+                    class="col-md-5 pt-3">
+                    <div class="shipper container  text-light">
+                        <h1 class="mb-3">ABOUT SHIPPER</h1>
+                        <p class="mb-5">We have trained, experienced experts available for our full range of services
+                            including
+                            reefer, out-of-gauge, breakbulk and each of our trade services – each operating in tandem
+                            with your business. This gives us the ability to uphold the personal service we’re globally
+                            recognised</p>
+                        <h2 class="p-2">Fun Facts</h2>
+                        <div class="d-flex flex wrap justify-content-between">
+                            <div class="award d-flex me-2">
+                                <i class="fa-solid fa-trophy" style="color: #FFD43B; font-size:50px;"></i>
+                                <div class="">
+                                    <h5 class="text-warning">Awards Got</h5>
+                                    <h3>+1.024</h3>
+                                </div>
+
+                            </div>
+                            <div class="package d-flex">
+                                <i class="fa-solid fa-umbrella" style="color: #FFD43B; font-size:50px;"></i>
+                                <div>
+                                    <h5 class="text-warning">Carried Package</h5>
+                                    <h3>+2.496</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 p-0">
+                    <div class="calltoaction">
+                        <img src="images/image1.png" alt="calltoaction">
+                        <div class="container">
+                            <div class="row">
+                                <div class="loge col text-center fs-1">
+                                    <h3 class="logi">LOGISTICS</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="phone-img mt-5">
+        <img src="images/phone.png" width="600px" alt="">
+    </div>
+
+
+
+
+    <footer class=" text-lg-start text-muted ">
+        <section class="text-light d-flex justify-content-between justify-content-lg-between p-4">
+            <div class="container-fluid  text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="top col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h2 class="text-uppercase fw-bold mb-4">
+                            ABOUT US
+                        </h2>
+                        <p>
+                            You can use the icons above to access more information about our credentials, providing
+                            solutions in a host of specific industries. However, these are far from the only industries
+                            that SHIPPER has proudly served.
+                        </p>
+                        <div class="social d-flex   p-4 text-light mt-0 pt-0 ps-0">
+                            <a href="" class="me-4 text-reset">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a href="" class="me-4 text-reset">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                        </div>
+                        <!-- <img class="blocklogo " src="images/talakologo.png" width="250px" alt=""> -->
+                    </div>
+
+                    <div class="col col-lg-2 col-xl-2 mx-auto mb-4 ">
+                        <h6 class="servicess text-uppercase fw-bold mb-4">
+                            Shipper
+                        </h6>
+                        <ul class=" mainu list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> Location</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> Site Maps</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <h6 class="servicess text-uppercase fw-bold mb-4 ">
+                            Services
+                        </h6>
+                        <ul class="mainu list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i>freight</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> Storeage</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center"><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> Security</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-reset d-flex align-items-center "><i class="fa-solid fa-circle"
+                                        style="color: #ffba00; font-size:6px; margin-right:6px;"></i> Warehousing</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="container-fluid col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0">
+                        <div class="newsletter container-fluid ">
+                            <h1>Newsletter</h1>
+                            <p>If you would like more information about our services we are eager to help.</p>
+                            <div class="d-flex flex-wrap">
+                                <input type="text" name="" id="" placeholder="Type Your E-mail">
+                                <button type="submit">Join</button>
+                            </div>
+                            <p>We promise, we won’t spam you!</p>
+                        </div>
+                    </div>
+
+
+                    <div class="talako container d-flex flex-wrap justify-content-between">
+                        <div class="row">
+                            <div class="unblock col">
+                                <img src="images/talakologo.png" width="0px" alt="">
+                            </div>
+                            <div class="mob col">
+                                <h4>Mobile App</h4>
+                                <p>Download our mobile applications from Google Play and Apple Store or decode QR Code
+                                    just below and start using.</p>
+
+                            </div>
+                            <div class="appstore col">
+                                <img src="images/appstore.png" width="350px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="text-center p-4 text-light" style="background-color: rgba(0, 0, 0, 0.05);">
+            &copy; Copyright 2024 All rights Reserve by:
+            <a class="text-reset fw-bold" href="#"> Diyogdhakal</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 6000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
